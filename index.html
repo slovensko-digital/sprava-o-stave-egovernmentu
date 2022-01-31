@@ -1,0 +1,460 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <title>Správa o stave slovenského eGovernmentu</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Slovensko.Digital">
+  <meta name="description" content="Občianske združenie Slovensko.Digital prináša nový spôsob pohľadu na hodnotenie toho, kde sa v súčasnosti nachádza slovenský eGovernment a ktorým smerom má ísť ďalej.">
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Slovensko.Digital" />
+  <meta property="og:url" content="" />
+  <meta property="og:title" content="Správa o stave slovenského eGovernmentu" />
+  <meta property="og:description" content="Občianske združenie Slovensko.Digital prináša nový spôsob pohľadu na hodnotenie toho, kde sa v súčasnosti nachádza slovenský eGovernment a ktorým smerom má ísť ďalej." />
+  <meta property="og:image" content="assets/img/sprava.png" />
+  <meta property="og:image:secure_url" content="assets/img/sprava.png" />
+
+  <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="assets/css/app.css">
+  <script defer data-domain="slovensko.digital" src="https://plausible.io/js/plausible.js"></script>
+
+  <script>
+    window.addEventListener("load", function () {
+      window.cookieconsent.initialise({
+        "palette": {
+          "popup": {
+            "background": "#2c2c2c",
+          },
+          "button": {
+            "background": "#3a68e8",
+          }
+        },
+        "theme": "edgeless",
+        "content": {
+          "message": "Tento web používa súbory cookie na poskytovanie služieb.",
+          "dismiss": "Súhlasím"
+        },
+        "showLink": false
+      })
+    });
+  </script>
+</head>
+
+<body>
+
+  <div class="off-canvas position-right" id="offCanvas" data-off-canvas data-transition="overlap">
+
+    <ul class="menu">
+      <li>
+        <a href="https://drive.google.com/file/d/1tqnJ3yGpGDRCL96CS6MDAAqpIviNY9bI/view?usp=sharing" class="button black">Celá správa</a>
+      </li>
+      <li><a href="https://drive.google.com/file/d/1dZC8puJK3SUCxOVb4JvCeZ4pwPoDlgEt/view?usp=sharing">Správa z Januára 2020</a></li>
+      <li><a href="/#kapitoly">Kapitoly</a></li>
+      <li><a href="https://slovensko.digital/podpora" target="_blank">Podporte nás</a></li>
+      <li class="dropdown">
+        <a class="button black">Naše riešenia</a>
+        <ul class="dropdown-content">
+          <li><a href="https://drive.google.com/file/d/17OZrhvngSKFCKBlEIzXIxAkUawHRNmoa/view?usp=sharing">Prípravné trhové konzultácie</a></li>
+          <li><a href="https://drive.google.com/file/d/1mXawKdfkYa7hYE8G7LckV3mpIXelsUUE/view?usp=sharing">Rozdeľovanie zákaziek na časti</a></li>
+          <li><a href="https://drive.google.com/file/d/1lk_GOsViMg1ZuAE54JfpErFOmoDA6OGE/view?usp=sharing">Ľudské zdroje - kompetenčný model</a></li>
+          <li><a href="https://drive.google.com/file/d/17aLd7yT7KHPXaZMz-2CrqY8xzJDrf6lW/view?usp=sharing">Moje údaje (My data)</a></li>
+          <li><a href="https://drive.google.com/file/d/1oJQv9iA0dqSJvf6vpkfZ5Joj3RUpzye1/view?usp=sharing">Prijímanie IT špecialistov</a></li>
+          <li><a href="https://drive.google.com/file/d/1ABijpl4Fbl3n_n-b4yfVg_GyAl4GpciM/view?usp=sharing">Externé&nbsp;IT zdroje</a></li>
+          <li><a href="https://drive.google.com/file/d/191yc5lXx9JlGSoBKPW38uhI9EkjO3CMs/view?usp=sharing">Manažment&nbsp;podnetov</a></li>
+          <li><a href="https://drive.google.com/file/d/1rSTA1hMr2r9ogT_qbVmXvIdsIIXscDg-/view?usp=sharing">Vendor lock-in</a></li>
+          <li><a href="https://drive.google.com/file/d/1eghFTfKbnT_ZQY2pZiTMcJgaaD2Ct5hP/view?usp=sharing">Otvorené API</a></li>
+          <li><a href="https://drive.google.com/file/d/1cSpISmmHd5AuaBPRb8gQwdRDnfBzzR6B/view?usp=sharing">Vládny cloud</a></li>
+        </ul>
+      </li>
+    </ul>
+
+    <div class="contact">
+      <address>
+        Slovensko.Digital<br>
+        Staré grunty 18<br>
+        841 04 Bratislava<br>
+      </address>
+      
+      <br>IČO: 50158635
+      
+      <ul class="menu horizontal align-center">
+        <li> <a href="https://www.facebook.com/slovensko.digital/" title="Facebook" target="_blank"><img src="assets/img/icons/icon-facebook.svg" alt="Facebook"></a></li>
+        <li> <a href="https://github.com/slovensko-digital" title="Github" target="_blank"><img src="assets/img/icons/icon-github.svg" alt="Github"></a> </li>
+        <li> <a href="https://www.youtube.com/channel/UCbpnKa1XOIpQLYUQ2dz7Sng" title="Youtube" target="_blank"><img src="assets/img/icons/icon-youtube.svg" alt="Youtube"></a> </li>
+      </ul>
+    </div>
+
+    <button class="close-button" aria-label="Close menu" type="button" data-close>
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+
+  <div id="main" role="main" class="main off-canvas-content" data-off-canvas-content>
+    <div class="top-bar-container" data-sticky-container>
+      <div class="sticky sticky-topbar" data-sticky data-options="anchor: page; marginTop: 0; stickyOn: small;">
+        <div id="top-bar" class="top-bar" data-topbar>
+          <div class="top-bar-left">
+            <a href="/" class="top-bar-logo" title="Domov"></a>
+          </div>
+          <div class="top-bar-right show-for-large">
+            <ul class="menu">
+              <li>
+                <a href="https://drive.google.com/file/d/1tqnJ3yGpGDRCL96CS6MDAAqpIviNY9bI/view?usp=sharing" class="button black">Celá správa</a>
+              </li>
+              <li><a href="https://drive.google.com/file/d/1dZC8puJK3SUCxOVb4JvCeZ4pwPoDlgEt/view?usp=sharing">Správa z Januára 2020</a></li>
+              <li><a href="/#kapitoly">Kapitoly</a></li>
+              <li><a href="https://slovensko.digital/podpora" target="_blank">Podporte nás</a></li>
+              <li class="dropdown">
+                <a class="button black">Naše riešenia</a>
+                <ul class="dropdown-content">
+                  <li><a href="https://drive.google.com/file/d/17OZrhvngSKFCKBlEIzXIxAkUawHRNmoa/view?usp=sharing">Prípravné trhové konzultácie</a></li>
+                  <li><a href="https://drive.google.com/file/d/1mXawKdfkYa7hYE8G7LckV3mpIXelsUUE/view?usp=sharing">Rozdeľovanie zákaziek na časti</a></li>
+                  <li><a href="https://drive.google.com/file/d/1lk_GOsViMg1ZuAE54JfpErFOmoDA6OGE/view?usp=sharing">Ľudské zdroje - kompetenčný model</a></li>
+                  <li><a href="https://drive.google.com/file/d/17aLd7yT7KHPXaZMz-2CrqY8xzJDrf6lW/view?usp=sharing">Moje údaje (My data)</a></li>
+                  <li><a href="https://drive.google.com/file/d/1oJQv9iA0dqSJvf6vpkfZ5Joj3RUpzye1/view?usp=sharing">Prijímanie IT špecialistov</a></li>
+                  <li><a href="https://drive.google.com/file/d/1ABijpl4Fbl3n_n-b4yfVg_GyAl4GpciM/view?usp=sharing">Externé&nbsp;IT zdroje</a></li>
+                  <li><a href="https://drive.google.com/file/d/191yc5lXx9JlGSoBKPW38uhI9EkjO3CMs/view?usp=sharing">Manažment&nbsp;podnetov</a></li>
+                  <li><a href="https://drive.google.com/file/d/1rSTA1hMr2r9ogT_qbVmXvIdsIIXscDg-/view?usp=sharing">Vendor lock-in</a></li>
+                  <li><a href="https://drive.google.com/file/d/1eghFTfKbnT_ZQY2pZiTMcJgaaD2Ct5hP/view?usp=sharing">Otvorené API</a></li>
+                  <li><a href="https://drive.google.com/file/d/1cSpISmmHd5AuaBPRb8gQwdRDnfBzzR6B/view?usp=sharing">Vládny cloud</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="auto expand cell hide-for-large">
+            <button class="top-bar-toggle" type="button" data-toggle="offCanvas">
+              <span class="hamburger"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="section">
+      <div class="grid-container">
+        <div class="grid-x grid-margin-x align-center text-center">
+          <div class="cell medium-10 large-7">
+            <img src="assets/img/sk-digital-znak.svg" class="sk-digital-icon" alt="Slovensko.digital">
+            <h1 class="headline">Správa o stave<br class="show-for-medium"> slovenského eGovernmentu</h1>
+            <p>V združení Slovensko.Digital nám záleží na stave slovenskému eGovernmentu.<br class="show-for-medium">
+              V tomto dokumente prinášame systematické vyhodnotenie, kde sa v
+              súčasnosti slovenský eGovernment nachádza, a aj ktorým smerom je potrebné ísť ďalej.</p>
+    
+            <p>Nechceme nahradiť iné oficiálne správy a hodnotenia, iba ich chceme doplniť o náš pohľad. Nemáme
+              ambíciu písať nové stratégie a plány, myslíme si že už ich existuje dosť, skôr chceme viditeľnejšie
+              ukázať, čo z nich sa darí aj v praxi realizovať a kde sú nedostatky.</p>
+    
+            <p>Dokument priebežne aktualizujeme a dopĺňame,<br class="show-for-medium"> uvítame k nemu všetky Vaše
+              komentáre.</p>
+    
+            <a href="#kapitoly" title="Kapitoly" class="scroll-down"><img src="assets/img/icons/icon-arrow-down.svg" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div id="kapitoly" class="section bg-gray">
+      <div class="carousel-wrapper carousel-wrapper--chapters grid-container">
+        <div class="carousel carousel--chapters">
+          <div class="carousel-cell">
+            <img src="assets/img/numbers/1.svg" alt="">
+            <h2 class="headline">Elektronické služby</h2>
+            <p class="lead">Práve elektronické služby sú to, čo používatelia z eGovernmentu - občania aj úradníci -
+              vidia a s čím pracujú. Doteraz sa dlhodobo a systematicky stav a kvalita elektronických služieb v SR
+              nevyhodnocovala. Neboli určené jasné ciele
+              ktoré chceme dosiahnuť a kritériá, pomocou ktorých vieme zistiť či a nakoľko je elektronická
+              služba „dobrá“. Táto kapitola sa venuje systematickému pohľadu na stav elektronických služieb.</p>
+          </div>
+    
+          <div class="carousel-cell">
+            <img src="assets/img/numbers/2.svg" alt="">
+            <h2 class="headline">Programy eGovernmentu</h2>
+            <p class="lead">Táto kapitola rozoberá súčasný stav v jednotlivých témach rozvoja eGov, aké sú nich
+              zámery, úlohy a riešenia a ako sa ich darí napĺňať. Namiesto toho, aby sme hodnotili formálne
+              splnenie čiastkových úloh, predkladáme ucelené hodnotenie jednotlivých programoch eGovernmentu,
+              kde na jednom mieste uvádzame všetky dôležité fakty týkajúce sa každého z programov.</p>
+    
+            <p class="lead">Obsah tejto kapitoly budeme postupne dopĺňať. </p>
+          </div>
+    
+          <div class="carousel-cell">
+            <img src="assets/img/numbers/3.svg" alt="">
+            <h2 class="headline">Projekty eGovernmentu </h2>
+            <p class="lead">Pohľad na nástroje pomocou ktorých sa „budovanie eGovernmentu“ realizuje, ktorými v
+              súčasnosti sú najmä veľké projekty informatizácie verejnej správy a ich riadenie.</p>
+          </div>
+    
+          <div class="carousel-cell">
+            <img src="assets/img/numbers/4.svg" alt="">
+            <h2 class="headline">A čo ďalej</h2>
+            <p class="lead">Iba pomenovať súčasný stav nestačí. V tejto kapitole je pohľad Slovensko.Digital na to,
+              ako postupovať v informatizácii verejnej správy ďalej. Nechceme nahradiť existujúce plány, ani
+              popisovať opäť nové témy, skôr vyjadriť v čom vidíme priority a ako riešiť niektoré obzvlášť zlyhávajúce oblasti.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="section">
+      <div class="grid-container">
+        <div class="section__title">
+          <h2 class="h1 headline">Toto sú naše hlavné zistenia:</h2>
+        </div>
+    
+        <table class="stack transparent table--findings">
+          <thead>
+            <th>Program eGov</th>
+            <th>Cieľ</th>
+            <th>Riešenie</th>
+            <th>Plán</th>
+            <th>Progres</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td><a href="https://docs.google.com/document/d/1tqnJ3yGpGDRCL96CS6MDAAqpIviNY9bI/edit#heading=h.4d34og8" title="" class="link-external">1 krát a dosť</a> </td>
+              <td><span class="mobile-title">Cieľ</span><span class="tag sucess"><span class="tag__content">V poriadku</span></span></td>
+              <td><span class="mobile-title">Riešenie</span><span class="tag sucess"><span class="tag__content">V poriadku</span></span></td>
+              <td><span class="mobile-title">Plán</span><span class="tag warning"><span class="tag__content">Problémy</span></span></td>
+              <td><span class="mobile-title">Progres</span><span class="tag warning"><span class="tag__content">Problémy</span></span></td>
+            </tr>
+        
+            <tr>
+              <td><a href="https://docs.google.com/document/d/1tqnJ3yGpGDRCL96CS6MDAAqpIviNY9bI/edit#heading=h.2s8eyo1" title="" class="link-external">Kontinuálne zlepšovanie služieb</a> </td>
+              <td><span class="mobile-title">Cieľ</span><span class="tag sucess"><span class="tag__content">V poriadku</span></span></td>
+              <td><span class="mobile-title">Riešenie</span><span class="tag warning"><span class="tag__content">Problémy</span></span></td>
+              <td><span class="mobile-title">Plán</span><span class="tag warning"><span class="tag__content">Problémy</span></span></td>
+              <td><span class="mobile-title">Progres</span><span class="tag warning"><span class="tag__content">Problémy</span></span></td>
+            </tr>
+        
+            <tr>
+              <td><a href="https://docs.google.com/document/d/1tqnJ3yGpGDRCL96CS6MDAAqpIviNY9bI/edit#heading=h.17dp8vu" title="" class="link-external">Lepšie služby</a> </td>
+              <td><span class="mobile-title">Cieľ</span><span class="tag sucess"><span class="tag__content">V poriadku</span></span></td>
+              <td><span class="mobile-title">Riešenie</span><span class="tag sucess"><span class="tag__content">V poriadku</span></span></td>
+              <td><span class="mobile-title">Plán</span><span class="tag warning"><span class="tag__content">Problémy</span></span></td>
+              <td><span class="mobile-title">Progres</span><span class="tag alert"><span class="tag__content">Zlyháva</span></span></td>
+            </tr>
+        
+            <tr>
+              <td><a href="https://docs.google.com/document/d/1tqnJ3yGpGDRCL96CS6MDAAqpIviNY9bI/edit#heading=h.3rdcrjn" title="" class="link-external">OpenAPI</a> </td>
+              <td><span class="mobile-title">Cieľ</span><span class="tag sucess"><span class="tag__content">V poriadku</span></span></td>
+              <td><span class="mobile-title">Riešenie</span><span class="mobile-title"></span><span class="tag warning"><span class="tag__content">Problémy</span></span></td>
+              <td><span class="mobile-title">Plán</span><span class="mobile-title"></span><span class="tag warning"><span class="tag__content">Problémy</span></span></td>
+              <td><span class="mobile-title">Progres</span><span class="tag alert"><span class="tag__content">Zlyháva</span></span></td>
+            </tr>
+        
+            <tr>
+              <td><a href="https://docs.google.com/document/d/1tqnJ3yGpGDRCL96CS6MDAAqpIviNY9bI/edit#heading=h.26in1rg" title="" class="link-external">Vládny cloud: Privátna časť</a> </td>
+              <td><span class="mobile-title">Cieľ</span><span class="tag warning"><span class="tag__content">Problémy</span></span></td>
+              <td><span class="mobile-title">Riešenie</span><span class="mobile-title"></span><span class="tag alert"><span class="tag__content">Zlyháva</span></span></td>
+              <td><span class="mobile-title">Plán</span><span class="mobile-title"></span><span class="tag alert"><span class="tag__content">Zlyháva</span></span></td>
+              <td><span class="mobile-title">Progres</span><span class="tag alert"><span class="tag__content">Zlyháva</span></span></td>
+            </tr>
+        
+            <tr>
+              <td><a href="https://docs.google.com/document/d/1tqnJ3yGpGDRCL96CS6MDAAqpIviNY9bI/edit#heading=h.lnxbz9" title="" class="link-external">Hybridný cloud</a> </td>
+              <td><span class="mobile-title">Cieľ</span><span class="tag warning"><span class="tag__content">Problémy</span></span></td>
+              <td><span class="mobile-title">Riešenie</span><span class="tag warning"><span class="tag__content">Problémy</span></span></td>
+              <td><span class="mobile-title">Plán</span><span class="tag warning"><span class="tag__content">Problémy</span></span></td>
+              <td><span class="mobile-title">Progres</span><span class="tag warning"><span class="tag__content">Problémy</span></span></td>
+            </tr>
+        
+            <tr>
+              <td><a href="https://docs.google.com/document/d/1tqnJ3yGpGDRCL96CS6MDAAqpIviNY9bI/edit#heading=h.35nkun2" title="" class="link-external">Prípravné trhové konzultácie</a> </td>
+              <td><span class="mobile-title">Cieľ</span><span class="tag sucess"><span class="tag__content">V poriadku</span></span></td>
+              <td><span class="mobile-title">Riešenie</span><span class="tag warning"><span class="tag__content">Problémy</span></span></td>
+              <td><span class="mobile-title">Plán</span><span class="tag warning"><span class="tag__content">Problémy</span></span></td>
+              <td><span class="mobile-title">Progres</span><span class="tag alert"><span class="tag__content">Zlyháva</span></span></td>
+            </tr>
+        
+            <tr>
+              <td><a href="https://docs.google.com/document/d/1tqnJ3yGpGDRCL96CS6MDAAqpIviNY9bI/edit#heading=h.1ksv4uv" title="" class="link-external">Delenie zákaziek</a> </td>
+              <td><span class="mobile-title">Cieľ</span><span class="tag warning"><span class="tag__content">Problémy</span></span></td>
+              <td><span class="mobile-title">Riešenie</span><span class="tag warning"><span class="tag__content">Problémy</span></span></td>
+              <td><span class="mobile-title">Plán</span><span class="tag warning"><span class="tag__content">Problémy</span></span></td>
+              <td><span class="mobile-title">Progres</span><span class="tag alert"><span class="tag__content">Zlyháva</span></span></td>
+            </tr>
+        
+            <tr>
+              <td><a href="https://docs.google.com/document/d/1tqnJ3yGpGDRCL96CS6MDAAqpIviNY9bI/edit#heading=h.44sinio" title="" class="link-external">Vendor lock-in a autorské práva</a> </td>
+              <td><span class="mobile-title">Cieľ</span><span class="tag warning"><span class="tag__content">Problémy</span></span></td>
+              <td><span class="mobile-title">Riešenie</span><span class="tag warning"><span class="tag__content">Problémy</span></span></td>
+              <td><span class="mobile-title">Plán</span><span class="tag alert"><span class="tag__content">Zlyháva</span></span></td>
+              <td><span class="mobile-title">Progres</span><span class="tag alert"><span class="tag__content">Zlyháva</span></span></td>
+            </tr>
+        
+            <tr>
+              <td><a href="https://docs.google.com/document/d/1tqnJ3yGpGDRCL96CS6MDAAqpIviNY9bI/edit#heading=h.2jxsxqh" title="" class="link-external">Ľudské zdroje</a> </td>
+              <td><span class="mobile-title">Cieľ</span><span class="tag sucess"><span class="tag__content">V poriadku</span></span></td>
+              <td><span class="mobile-title">Riešenie</span><span class="tag warning"><span class="tag__content">Problémy</span></span></td>
+              <td><span class="mobile-title">Plán</span><span class="tag warning"><span class="tag__content">Problémy</span></span></td>
+              <td><span class="mobile-title">Progres</span><span class="tag alert"><span class="tag__content">Zlyháva</span></span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    
+    <div class="section">
+      <div class="grid-container">
+        <div class="section__title text-center">
+          <h2 class="h1 headline">Celé kapitoly</h2>
+        </div>
+    
+        <div class="grid-x grid-margin-x large-up-4 medium-up-2">
+          <div class="cell card card--chapters">
+            <div class="card-section">
+              <div class="img-wrapper">
+                <img src="assets/img/ilustrations/elektronicke-sluzby.svg" alt="">
+              </div>
+              <h3 class="headline">Elektronické<br> služby</h3>
+              <a href="https://docs.google.com/document/d/1tqnJ3yGpGDRCL96CS6MDAAqpIviNY9bI/edit#heading=h.3dy6vkm" class="button ghost" target="_blank" title="Otvoriť kapitolu Elektronické služby">Otvoriť kapitolu</a>
+            </div>
+            <div class="card-footer">
+              <div class="img-wrapper">
+                <img src="assets/img/google-docs.svg" alt="Google Docs">
+              </div>
+            </div>
+          </div>
+    
+          <div class="cell card card--chapters">
+            <div class="card-section">
+              <div class="img-wrapper">
+                <img src="assets/img/ilustrations/programy-egovernmentu.svg" alt="">
+              </div>
+              <h3 class="headline">Programy<br> eGovernmentu</h3>
+              <a href="programy-egovernmentu.html" class="button ghost" title="Otvoriť kapitolu Programy eGovernmentu">Otvoriť kapitolu</a>
+            </div>
+            <div class="card-footer">
+              <div class="img-wrapper">
+              </div>
+            </div>
+          </div>
+    
+          <div class="cell card card--chapters">
+            <div class="card-section">
+              <div class="img-wrapper">
+                <img src="assets/img/ilustrations/projekty-egovernmentu.svg" alt="">
+              </div>
+              <h3 class="headline">Projekty <br> eGovernmentu</h3>
+              <a href="https://docs.google.com/document/d/1tqnJ3yGpGDRCL96CS6MDAAqpIviNY9bI/edit#bookmark=id.kffoem4jq4xr" class="button ghost" target="_blank" title="Otvoriť kapitolu Projekty eGovernmentu">Otvoriť kapitolu</a>
+            </div>
+            <div class="card-footer">
+              <div class="img-wrapper">
+                <img src="assets/img/google-docs.svg" alt="Google Docs">
+              </div>
+            </div>
+          </div>
+    
+          <div class="cell card card--chapters">
+            <div class="card-section">
+              <div class="img-wrapper">
+                <img src="assets/img/ilustrations/acodalej.svg" alt="">
+              </div>
+              <h3 class="headline">A čo ďalej?</h3>
+              <a href="https://docs.google.com/document/d/1tqnJ3yGpGDRCL96CS6MDAAqpIviNY9bI/edit#heading=h.1y810tw" class="button ghost" target="_blank" title="Otvoriť kapitolu A čo ďalej?">Otvoriť kapitolu</a>
+            </div>
+            <div class="card-footer">
+              <div class="img-wrapper">
+                <img src="assets/img/google-docs.svg" alt="Google Docs">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <footer class="footer section bg-gray">
+      <div class="grid-container">
+        <div class="grid-x grid-margin-x">
+          <div class="cell medium-4">
+            <h2 class="h1">Podporte nás &nbsp;<img src="assets/img/icons/icon-heart.svg" alt=""></h2>
+            <a href="https://slovensko.digital/podpora" target="_blank" class="button white" title="Zistiť viac o tom, ako nás podporiť">Zistiť viac</a>
+          </div>
+          <div class="cell large-offset-1 large-7 medium-8">
+
+            <h2 class="h1">Novinky mailom &nbsp;<img src="assets/img/icons/icon-mail.svg" alt="Black and white illustrated envelope"></h2>
+            <form class="form--ghost" id="newsletter-form" role="form" action="https://my.sendinblue.com/users/subscribe/js_id/29wti/id/1" data-action="https://my.sendinblue.com/users/subscribeembed/js_id/29wti/id/1" method="post">
+              <div class="grid-x grid-margin-x">
+                <input type="hidden" name="js_id" id="js_id" value="29wti">
+                <input type="hidden" name="listid" id="listid" value="2|5">
+                <input type="hidden" name="from_url" id="from_url" value="yes">
+                <input type="hidden" name="hdn_email_txt" id="hdn_email_txt" value="">
+                <div class="cell large-9 medium-7">
+                  <input name="email" required name="email" type="email" placeholder="Váš e-mail" required="" id="subscribe-email">
+                </div>
+                <div class="cell large-3 medium-5">
+                  <button type="submit" class="button white">Prihlásiť</button>
+                </div>
+              </div>
+              <small class="privacy-policy">Prihlásením dávam dobrovoľný súhlas OZ Slovensko.Digital na zasielanie bezplatného newslettera na mnou zadaný e-mail. Tento súhlas môžem kedykoľvek odvolať na
+                <a href="mailto:kontakt@slovensko.digital"
+                   title="E-mailový kontakt Slovensko.digital">kontakt@slovensko.digital</a>. Oboznámil(a) som sa s informáciami v sekcii
+                <a href="https://slovensko.digital/ochrana-osobnych-udajov" target="_blank" title="Ochrana osobných údajov">Ochrana osobných údajov</a>.</small>
+            </form>
+            <div id="newsletter-success" class="hide">
+              <h3>Ďakujeme za Váš záujem.</h3>
+              <p>Na zadanú adresu Vám čoskoro príde potvrdzovací email k odberu noviniek.</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="grid-container text-center">
+        <div class="footer__logo">
+          <a href="https://slovensko.digital/" title="Slovensko.digital" target="_blank"><img src="assets/img/skdigital_biela.svg"></a>
+        </div>
+
+
+        <address>
+          Slovensko.Digital<br>
+          Staré grunty 18<br>
+          841 04 Bratislava<br>
+        </address>
+        
+        <br>IČO: 50158635
+        
+        <ul class="menu horizontal align-center">
+          <li> <a href="https://www.facebook.com/slovensko.digital/" title="Facebook" target="_blank"><img src="assets/img/icons/icon-facebook.svg" alt="Facebook"></a></li>
+          <li> <a href="https://github.com/slovensko-digital" title="Github" target="_blank"><img src="assets/img/icons/icon-github.svg" alt="Github"></a> </li>
+          <li> <a href="https://www.youtube.com/channel/UCbpnKa1XOIpQLYUQ2dz7Sng" title="Youtube" target="_blank"><img src="assets/img/icons/icon-youtube.svg" alt="Youtube"></a> </li>
+        </ul>
+
+      </div>
+
+      <hr>
+
+      <div class="grid-container">
+        <div class="grid-x ">
+          <div class="cell medium-12 large-8">
+            <small class="copyright copyright-text" style="font-size: 15px; margin-top: 15px">Tento dokument sme vytvorili v rámci projektu Lepšie riešenia e-Governmentu v SR , ktorý je finančne podporený z Európskeho sociálneho fondu.</small>
+          </div>
+          <div class="cell medium-12 large-4">
+            <a target="_blank" href="http://www.reformuj.sk/">
+              <img class="fit-picture"
+                 src="../assets/img/evs.png"
+                 alt="Logo of SK gov programme; Operačný program Efektívna verejná správa">
+            </a>
+            <a target="_blank" href="https://ec.europa.eu/social/main.jsp?catId=325&langId=sk">
+              <img class="fit-picture"
+                 src="../assets/img/esf.png"
+                 alt="Logo of the EU European Social Fund">
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+  <script src="assets/js/app.js"></script>
+</body>
+
+</html>
