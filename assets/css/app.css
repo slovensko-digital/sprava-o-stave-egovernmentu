@@ -300,15 +300,21 @@ input[type='search'] {
           box-sizing: border-box; }
 
 ::-webkit-input-placeholder {
-  color: #cacaca; }
+  color: #505050; }
 
 :-ms-input-placeholder {
-  color: #cacaca; }
-
-::-ms-input-placeholder {
-  color: #cacaca; }
+  color: #505050; }
 
 ::placeholder {
+  color: #505050; }
+
+.dark::-webkit-input-placeholder {
+  color: #cacaca; }
+
+.dark:-ms-input-placeholder {
+  color: #cacaca; }
+
+.dark::placeholder {
   color: #cacaca; }
 
 [type='file'],
@@ -5215,6 +5221,11 @@ html {
   .footer hr {
     width: 100%;
     max-width: none;
+    border-color: #cdcdcd;
+    margin: 1.875rem 0; }
+  .footer.dark hr {
+    width: 100%;
+    max-width: none;
     border-color: #3D3D3D;
     margin: 1.875rem 0; }
   .footer .grid-container:first-child {
@@ -5228,15 +5239,26 @@ html {
           .footer .grid-container:first-child > .grid-x > .cell .h1 {
             margin-bottom: 1.25rem; } }
   .footer form {
-    color: #686868; }
+    color: #afafaf; }
     .footer form .button {
       width: 100%; }
     .footer form a {
-      color: #686868;
+      color: #afafaf;
       text-decoration: underline;
       -webkit-transition: color 0.25s ease;
       transition: color 0.25s ease; }
       .footer form a:hover {
+        color: #646464;  }
+  .footer.dark form {
+    color: #686868; }
+    .footer.dark form .button {
+      width: 100%; }
+    .footer.dark form a {
+      color: #686868;
+      text-decoration: underline;
+      -webkit-transition: color 0.25s ease;
+      transition: color 0.25s ease; }
+      .footer.dark form a:hover {
         color: #fefefe; }
     @media print, screen and (min-width: 64em) {
       .footer form .privacy-policy {
@@ -5246,7 +5268,15 @@ html {
     .footer .menu a {
       padding: 0.375rem; }
   .footer .copyright {
+    color: #737373; }
+    .footer .copyright a {
+      color: #2C2C2C;;
+      text-decoration: underline; }
+  .footer .copyright.dark{
     color: #B4B4B4; }
+    .footer .copyright.dark a {
+      color: #ffffff;;
+      text-decoration: underline; }
 
 .fit-picture {
   height: 100px;
@@ -6065,9 +6095,29 @@ textarea {
 .form--ghost [type='url'],
 .form--ghost [type='color'],
 .form--ghost textarea {
+  border: 1px solid #000000;
+  background-color: transparent;
+  color: #000000; }
+
+.form--ghost.dark [type="text"],
+.form--ghost.dark [type="password"],
+.form--ghost.dark [type="date"],
+.form--ghost.dark [type="datetime"],
+.form--ghost.dark [type="datetime-local"],
+.form--ghost.dark [type="month"],
+.form--ghost.dark [type="week"],
+.form--ghost.dark [type="email"],
+.form--ghost.dark [type="number"],
+.form--ghost.dark [type="search"],
+.form--ghost.dark [type="tel"],
+.form--ghost.dark [type="time"],
+.form--ghost.dark [type="url"],
+.form--ghost.dark [type="color"],
+.form--ghost.dark textarea {
   border: 1px solid #fefefe;
   background-color: transparent;
-  color: #fefefe; }
+  color: #fefefe;
+}
 
 @media print, screen and (min-width: 40em) {
   table {
